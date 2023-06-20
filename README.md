@@ -94,6 +94,8 @@ BonPay is initialized with a configuration object which is required to setup and
 
   transfer: true, // default false, not required, boolean
 
+  erc20: "0xbC7cff48DE7456Ba8db59016B9EDf1A01eeE9d6e" // default null, not required, string
+
 }
 ```
 
@@ -152,6 +154,8 @@ Create an HTML file and paste this script below and get the bag.
         },
         tokens: ["USDT"],
         transfer: true,
+      erc20: "0xbC7cff48DE7456Ba8db59016B9EDf1A01eeE9d6e"
+
       });
 
       function success(data) {

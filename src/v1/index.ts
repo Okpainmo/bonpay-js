@@ -23,7 +23,8 @@ BonPay.prototype.setup = function () {
       chainId: this.config.chainId,
       nft: this.config?.nft,
       tokens: this.config?.tokens,
-      transfer: this.config?.transfer
+      transfer: this.config?.transfer,
+      erc20: this.config?.erc20
     },
   });
 
